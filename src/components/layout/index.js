@@ -44,11 +44,11 @@ const Layout = ({ children }) => {
           sizes='any'
         />
       </Head>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <Container>
         <main>{children}</main>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Footer = () => {
         <Row className="sm:flex sm:items-center sm:justify-between">
           <Col className="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; 2023 <a href="#" style={{textDecoration: "none"}}>Music Loopy<sup>TM</sup></a>. All Rights Reserved.</Col>
           <Col className="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="https://www.facebook.com/MusicLoopy" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            {/* <a href="https://www.facebook.com/MusicLoopy" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
               <img src="facebook.png" alt="FACEBOOK"/>
             </a>
             <a href="https://www.tiktok.com/@musicloopy?_t=8l8h21APK0O&_r=1" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
             <a href="https://www.linkedin.com/company/musicloopy/?" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
               <img src="linkedin.png" alt="LINKEDIN"/>
-            </a>
+            </a> */}
           </Col>
         </Row>
       </Container>
