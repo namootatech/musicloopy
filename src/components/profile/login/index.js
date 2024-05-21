@@ -20,7 +20,7 @@ const LoginForm = () => {
           <h1 className="text-capitalize text-white mb-5">Welcome back!</h1>
           <Form>
             <Form.Group controlId="formEmail">
-              <div className="input-group mb-3">
+              <div className="input-group mb-5">
                 <span className="input-group-text" style={{ backgroundColor: '#2D3134', borderColor: '#65D03D' }}>
                   <Image src="/envelope-icon.png" alt="Envelope Icon" width={25} height={20} />
                 </span>
@@ -35,7 +35,7 @@ const LoginForm = () => {
             </Form.Group>
 
             <Form.Group controlId="formPassword">
-              <div className="input-group mb-3">
+              <div className="input-group mb-3 ">
                 <span className="input-group-text" style={{ backgroundColor: '#2D3134', borderColor: '#65D03D' }}>
                   <Image src="/locked-icon.png" alt="Lock Icon" width={19} height={24} />
                 </span>
@@ -50,7 +50,7 @@ const LoginForm = () => {
             </Form.Group>
 
             <div className="text-end mb-3">
-              <Link href="/forgot-password">
+              <Link href="/forgot-password" style={{textDecoration: 'none'}}>
                 Forgot Password?
               </Link>
             </div>
